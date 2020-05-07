@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900&display=swap');
+
+body {
+    background-color: black;
+}
+
+h3, p {
+    font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h3, p, li {
+    margin: auto 0;
+    padding-bottom: 1rem;
+}
+
+.headerBox {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+.logoGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 1%;
+}
+
+.mainHeader {
+    text-align: center;
+    font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    padding: 1% 0 1% 0;
+}
+
+.bodyContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 2em 1em 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited, a:link {
+    color: rgb(169, 0, 0);
+    font-weight: bold;
+}
+
+.spotifyMicrointeraction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .logoGif{
+        width: 7%;
+    }
+    
+    .bodyContent {
+        padding: 1em 10em 1em 10em;
+    }
+
+    .spotifyMicrointeraction {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
