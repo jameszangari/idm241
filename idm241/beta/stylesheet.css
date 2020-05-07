@@ -78,3 +78,12 @@ a:visited, a:link {
         width: 50%;
     }
 }
+
+@media screen and (max-width: 600px){
+    .logoGif {
+        padding-top: 1em;
+    }
+    .mainHeader {
+        padding-bottom: 0.5em;
+    }
+}

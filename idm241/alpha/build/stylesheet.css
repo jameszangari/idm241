@@ -81,10 +81,10 @@ a:visited, a:link {
 }
 
 @media screen and (min-width: 1024px) {
-    .logoGif{
+    .logoGif {
         width: 7%;
     }
-    
+
     .bodyContent {
         padding: 1em 10em 1em 10em;
     }
@@ -94,5 +94,14 @@ a:visited, a:link {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .logoGif {
+        padding-top: 1em;
+    }
+    .mainHeader {
+        padding-bottom: 0.5em;
     }
 }
