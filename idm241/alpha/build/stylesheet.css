@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900&display=swap');
+
 body {
     background-color: #000;
+}
+
+h3, p {
+    font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h3, p, li {
+    margin: auto 0;
+    padding-bottom: 1rem;
+}
+
+.headerBox {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+.logoGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 1%;
+}
+
+.mainHeader {
+    text-align: center;
+    font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    padding: 1% 0 1% 0;
 }
 
 .wrapper {
@@ -18,18 +53,6 @@ body {
 
 #spotifyLogo:hover {
     background-image: url("./media/logos/spotifyLogoGreenFull1x.png");
-}
-
-.logoGif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-}
-
-.mainHeader {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .bodyContent {
