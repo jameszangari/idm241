@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  font-family: sans-serif;
+}
+
+h3, p {
+  font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h3, p, li {
+  margin: auto 0;
+  padding-bottom: 1rem;
+}
+
+#buttonWrap {
+  text-align: center;
+  padding: 1em 1em;
+}
+
+svg {
+  width: 48px;
+  height: 48px;
+  fill: #fff;
+  margin-left: 75px;
+}
+
+button {
+  background: #383A3F;
+  color: #fff;
+  padding: 15px 30px;
+  width: 414px;
+  border-style: none;
+  cursor: pointer;
+}
+
+#text {
+  font-family: 'Overpass', sans-serif;
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: 0.5em;
+  transform: translateX(200px);
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 0.1s, transform 0.4s;
+}
+
+button:hover #text {
+  transform: translateX(-20px);
+  opacity: 1;
+}
+
+button:hover svg {
+  transform: translateX(-35px);
+  transition: opacity 0.1s, transform 0.1s;
+  transition-delay: 0.3s;
+}
+
+button:hover {
+  outline: #1DB954 solid 4px;
+}
+
+button:hover svg path {
+  fill: #1DB954;
+}
+
+#group:hover {
+  animation: shake-lr 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation-delay: 0.3s;
+}
+
+  @keyframes shake-lr {
+    0%,
+    100% {
+              transform: rotate(0deg);
+              transform-origin: 50% 50%;
+    }
+    10% {
+              transform: rotate(8deg);
+    }
+    20%,
+    40%,
+    60% {
+              transform: rotate(-10deg);
+    }
+    30%,
+    50%,
+    70% {
+              transform: rotate(10deg);
+    }
+    80% {
+              transform: rotate(-8deg);
+    }
+    90% {
+              transform: rotate(8deg);
+    }
+} 
+
+.bodyContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#site:visited, #site:link {
+  color: rgb(169, 0, 0);
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .bodyContent {
+      padding: 1em 10em 1em 10em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .mainHeader {
+      padding-bottom: 0.5em;
+  }
+}
