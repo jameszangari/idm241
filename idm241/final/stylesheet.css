@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900&display=swap');
+
+body {
+    background-color: black;
+}
+
+h3, p, li {
+    font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h3, p, li {
+    margin: auto 0;
+    padding-bottom: 1rem;
+}
+
+p, li {
+    font-size: 17px;
+}
+
+p {
+    line-height: 22px;
+}
+
+li {
+    line-height: 16px;
+    list-style-type: square;
+}
+
+.headerBox {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+.logoGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 1%;
+}
+
+.mainHeader {
+    text-align: center;
+    font-family: 'Overpass', Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    padding: 1% 0 1% 0;
+}
+
+.bodyContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 2em 1em 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited, a:link {
+    color: rgb(169, 0, 0);
+    font-weight: bold;
+}
+
+.navigationMicrointeraction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .logoGif{
+        width: 7%;
+    }
+    
+    .bodyContent {
+        padding: 1em 12.5em 1em 12.5em;
+    }
+
+    /* .navigationMicrointeraction {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    } */
+}
+
+@media screen and (max-width: 600px){
+    .logoGif {
+        padding-top: 1em;
+    }
+    .mainHeader {
+        padding-bottom: 0.5em;
+    }
+
+    .navigationMicrointeraction {
+        max-width: 100%;
+    }
+}
