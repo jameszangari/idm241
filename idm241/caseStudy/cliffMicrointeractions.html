@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="caseStyle.css">
+    <script src="https://kit.fontawesome.com/080c06f1d6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg"/>
+    <title>James Cliff: Case Study</title>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <button id="modeSwitcher" onclick="darkMode()">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
+    <h1><a href="https://jamescliff.com" id="headerLink">James Cliff</a></h1>
+    <p id="headerParagraph">Three microinteractions for my portfolio website.</p>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="main">
+    <h1 class="caseHeader">CASE STUDY</h1>
+    <h2>OVERVIEW</h2>
+    <p>In a timeline of roughly nine weeks, I was challenged with designing and developing <strong>three</strong> fully responsive microinteractions (<em>simple</em>, <em>medium</em>, and <em>complex</em>) for "IDM 241: Microinteractions" at Drexel University, with the intent of incorporating them into full-fledged project(s) down the road. In my case, I would be adding them to my <a href="https://jamescliff.com" class="links">personal portfolio website</a> using HTML, CSS, and JavaScript.</p>
+
+    <h2>CONTEXT & CHALLENGE</h2>
+    <p>The goal of this project was to develop predictive and enjoyable interactive designs based on the consideration of users’ experience. We were tasked with identifying and implementing the elements required to create memorable digital experiences. We were free to choose the original interface we wanted to improve, and the type of interaction we wanted to occur based on the <em>Microinteracions Model</em>:</p>
+        <ul>
+            <li>a Trigger</li>
+            <li>the Rules</li>
+            <li>Feedback</li>
+            <li>Loops/Modes</li>
+        </ul>
+
+    <h2>PROCESS</h2>
+    <p>My personal portfolio website contatins buttons and links to my social media profiles, however they have very minimal feedback to user as of now.</p>
+    <p>The first microinteraction &#8211; <strong>Alpha</strong>:</p>
+    <ul>
+        <li>The <strong>trigger</strong>: occurs when the user hovers over the social media icons in the <a href="https://www.jamescliff.com/#4" target="_blank" class="links">"Connect With Me"</a> section at the bottom of the website.</li>
+        <li>The <strong>rules</strong>: on each hover, the social media icon will change color along with an animation. The animation will fade in a cirlce around the icon.</li>
+        <li>The <strong>feedback</strong>: hovering over each logo will change the color of the icon from white to its respective design color and show a small animation: a circle will fade in and around the icon.</li>
+        <li>The <strong>loops/modes</strong>: <em>mode</em> &#8211; clicking one one of these logos will open a new tab and bring you to that specific link.</li>
+    </ul>
+    <h4>PROCESS: IMAGES</h4>
+    <img src="./images/preAlpha.png" class="image">
+    <span class="imageCaption"><strong>Alpha Microinteraction</strong> Original</span>
+    <img src="./images/alpha.gif" class="image">
+    <span class="imageCaption"><strong>Alpha Microinteraction</strong> Redesign</span>
+    <p class="pUnderImg">The aim behind this interaction was to enhance the experience behind hovering these icons and visually show the user where it will take them, based off of familiar color palettes.</p>
+    <p>You can visit a build of the microinteraction below:</p>
+    <a href="https://codepen.io/jamescliff/pen/mdegMma" target="_blank" class="projectButton">Alpha Build</a>
+
+    <h2>PROCESS (CONT.)</h2>
+    <p>The second microinteraction &#8211; <strong>Beta</strong>:</p>
+    <ul>
+        <li>The <strong>trigger</strong>: occurs when the user hovers over the social media buttons in the <a href="https://www.jamescliff.com/#1" target="_blank" class="links">"Portfolio"</a> card section towards the top of the website.</li>
+        <li>The <strong>rules</strong>: on each hover, the social media icon will change color along with a few animations:</li>
+        <br>
+        <ol>
+            <li>One animation will have the name of the app slide in from the right and line up next to the logo when you hover over the button.</li>
+            <li>The next animation will shake the logo and name after the slide animation.</li>
+            <li>The next animation will fade the logo color from white to the corresponding color palette of the app.</li>
+            <li>The last animation will fade in a colored border around the box, also following the color palette of the app.</li>
+        </ol>
+        <br>
+        <li>The <strong>feedback</strong>: upon hovering over each button box:</li>
+        <br>
+        <ol>
+            <li>the name of the app will slide in from right side of the button and sit next to the app logo</li>
+            <li>the color of the logo will change from white to its corresponding color palette</li>
+            <li>a colored border, also corresponding to the color palette of the app, will appear around the outer edge of the button</li>
+        </ol>
+        <br>
+        <li>The <strong>loops/modes</strong>: <em>mode</em> &#8211; clicking one one of these logos will open a new tab and bring you to that specific link.</li>
+    </ul>
+    <h4>PROCESS: IMAGES</h4>
+    <img src="./images/preBeta.png" class="image">
+    <span class="imageCaption"><strong>Beta Microinteraction</strong> Original</span>
+    <img src="./images/beta.gif" class="image">
+    <span class="imageCaption"><strong>Beta Microinteraction</strong> Redesign</span>
+    <p class="pUnderImg">This interaction was also focused on enhancing the experience behind hovering these icons and visually show the user where it will take them, based off of familiar color palettes and a playful animation.</p>
+    <p>You can visit a build of the microinteraction below:</p>
+    <a href="https://codepen.io/jamescliff/pen/dyYaVEW" target="_blank" class="projectButton">Beta Build</a>
+
+    <h2>PROCESS (CONT.)</h2>
+    <p>The third microinteraction &#8211; <strong>Final</strong>:</p>
+    <ul>
+        <li>The <strong>trigger</strong>: </li>
+        <ol>
+            <li>The first trigger will occur when the user clicks the 3-lined hamburger icon &#9776; in the top left corner of the website <em>(to be added)</em>.</li>
+            <li>An additional trigger will occur when the user hovers over one of the navigtion menu items.</li>
+        </ol>
+        <br>
+        <li>The <strong>rules</strong>:</li>
+        <ol>
+            <li>On <em>click</em>, the hamburger icon &#9776; will transform into an &#10005; with the middle line fading out and the top and bottom lines converging into an &#10005; shape.</li>
+            <li> After clicking the hamburger icon, the navigation menu will slide in from the left of the screen.</li>
+        </ol>
+        <p>In this navigation menu will be 6 items: <em>About Me</em>, <em>Portfolio</em>, <em>Digital Media</em>, <em>Short Films</em>, <em>Photography</em>, and <em>Contact</em>. Clicking one of the menu items will close the menu and jump to that section in the webpage.</p>
+        <ul>
+            <li>Hovering over any of these navigation items will change the color to a blue hover state color and scale the text up 30% and return back to its orignal state after the un-hovering.</li>
+        </ul>
+        <br>
+        <li>The <strong>feedback</strong>:</li>
+        <p>Upon clicking the hamburger icon:</p>
+            <ul>
+                <li>the &#9776; icon will transform into an &#10005;</li>
+                <li>a navigation menu will slide in from the left</li>
+                <li>6 navigation menu items will slide in with the menu</li>
+            </ul>
+        <p>Upon hover of the menu item: the color will change from white to blue</p>
+        <li>the text will scale up 30% and then return back its original size after mouse click ends</li>        
+        <li>The <strong>loops/modes</strong>: <em>mode</em> &#8211; clicking one of the menu items will close the nagivation panel and jump to that section in the webpage.</li>
+    </ul>
+    <h4>PROCESS: IMAGES</h4>
+    <img src="./images/preFinal.png" class="image">
+    <span class="imageCaption"><strong>Final Microinteraction</strong> Original</span>
+    <img src="./images/final.gif" class="image">
+    <span class="imageCaption"><strong>Final Microinteraction</strong> Redesign</span>
+    <p class="pUnderImg">The goal of adding a hamburger menu to my site was to create quick and easy navigation to get to the different sections, while retaining the layout and style of the site.</p>
+    <p>You can visit a build of the microinteraction below:</p>
+    <a href="https://codepen.io/jamescliff/pen/bGVJoeB" target="_blank" class="projectButton">Final Build</a>
+
+    <h2>SOLUTION</h2>
+    <p>The goal of this project was to revamp the elements that already exist within my personal portfolio website by adding microinteractions that are engaging for the user and positively contribute to the look-and-feel of the website.</p>
+
+    <h2>RESULTS</h2>
+    <p>The designed microinteractions provide visual feedback that communicate and enhance the brand to the users, as well as allow for easier navigation of the site by getting to the areas of the page that matter most to the user.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <h2 id="footerText">Designed by <a href="https://jamescliff.com" target="_blank" class="links">James Cliff</a></h2>
+    <p id="footerCopyright">Copyright © 2020. All Rights Reserved.</p>
+    <a href="https://jamescliff.com" target="_blank"><img src="https://www.jamescliff.com/media/logos/cliff_animation.gif" alt="James Cliff logo" id="cliffGif"></a>
+</div>
+
+</body>
+</html>
