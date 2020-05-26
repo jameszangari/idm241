@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
+    <title>IDM241</title>
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          
+          <!--Spans to act as a hamburger-->
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <li><a href="https://www.jamescliff.com/#0" target="_blank">ABOUT ME</a></li>
+            <li><a href="https://www.jamescliff.com/#1" target="_blank">PORTFOLIO</a></li>
+            <li><a href="https://www.jamescliff.com/#2" target="_blank">DIGITAL MEDIA</a></li>
+            <li><a href="https://www.jamescliff.com/#3" target="_blank">SHORT FILMS</a></li>
+            <li><a href="https://www.jamescliff.com/#4" target="_blank">PHOTOGRAPHY</a></li>
+            <li><a href="https://www.jamescliff.com/#5" target="_blank">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="logo-container">
+      <img src="https://jamescliff.com/media/logos/cliff_animation.gif" alt="James Cliff" id="gifImage">
+      </div>
+<hr>
+    <div class="bodyContent">
+        <h3>URL to the original interface you wish to improve:</h3>
+        <p><a href="https://jamescliff.com" target="_blank" id="site">James Cliff - Personal Website</a></p>
+        <br>
+
+        <h3>TRIGGERS:</h3>
+        <p>The trigger will occur when the user hovers over the social media buttons in the "Portfolio" card section towards the top of the website.</p>
+        <br>
+
+        <h3>RULES:</h3>
+        <p>On each hover, the social media icon will change color along with a few animations.</p>
+        <ol>
+            <li>One animation will have the name of the app slide in from the right and line up next to the logo when you hover over the button.</li>
+            <li>The next animation will shake the logo and name after the slide animation.</li>
+            <li>The next animation will fade the logo color from white to the corresponding color palette of the app.</li>
+            <li>The last animation will fade in a colored border around the box, also following the color palette of the app.</li>
+        </ol>
+        <br>
+
+        <h3>FEEDBACK:</h3>
+        <p>Upon hovering over each button box:</p> 
+        <ul>
+            <li>the name of the app will slide in from right side of the button and sit next to the app logo</li>
+            <li>the color of the logo will change from white to its corresponding color palette</li>
+            <li>a colored border, also corresponding to the color palette of the app, will appear around the outer edge of the button</li>
+        </ul>
+        <br>
+
+        <h3>LOOPS & MODES:</h3>
+        <p>Modes: Clicking one one of these logos will open a new tab and bring you to that specific link.</p>
+    </div>  
+</body>
+</html>
