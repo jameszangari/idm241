@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900&display=swap');
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
 }
