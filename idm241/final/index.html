@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="https://kit.fontawesome.com/080c06f1d6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
     <title>IDM241</title>
 </head>
@@ -23,31 +24,41 @@
             <br>
 
             <h3>TRIGGERS</h3>
-            <li>The first trigger will occur when the user clicks the 3-lined hamburger icon ( &#9776; ) in the top left corner of the website <strong>(to be added)</strong>.</li>
+            <li>The first trigger will occur when the user <strong>hovers</strong> the 3-lined hamburger icon <i class="fas fa-bars"></i> in the top left corner of the website <strong>(to be added)</strong>.</li>
+            <li>The next trigger will occur when the user <strong>clicks</strong> the 3-lined hamburger icon <i class="fas fa-bars"></i> .</li>
+            <li>Another trigger will occur when the user hovers the <i class="fas fa-times"></i> after the menu opens.</li>
             <li>An additional trigger will occur when the user hovers over one of the navigtion menu items.</li>
             <br>
 
             <h3>RULES</h3>
-            <li>On <strong>click</strong>, the hamburger icon &#9776; will transform into an &#10005 with the middle line fading out and the top and bottom lines converging into an &#10005 shape.</li>
-            <li> After clicking the hamburger icon, the navigation menu will slide in from the left of the screen.</li>
+            <li>On <strong>hover</strong>, the hamburger icon <i class="fas fa-bars"></i> will transform into an <i class="fas fa-angle-down"></i></li>
+            <li>On <strong>click</strong>, the <i class="fas fa-angle-down"></i> will flip and transform to <i class="fas fa-angle-up"></i> and the navigation menu will slide down from the top of the screen.</li>
+            <li>When the user moves their cursor away from the <i class="fas fa-angle-up"></i> , an <i class="fas fa-times"></i> will appear and scale up.</li>
             <br>
             <p>In this navigation menu will be 6 menu items: <strong>About Me</strong>, <strong>Portfolio</strong>, <strong>Digital Media</strong>, <strong>Short Films</strong>, <strong>Photography</strong>, and <strong>Contact</strong>. Clicking one of the menu items will close the menu and jump to that section in the webpage.</p>
             <ul>
-                <li>Hovering over any of these navigation items will change the color to a blue hover state color and scale the text up 30% and return back to its orignal state after the un-hovering.</li>
+                <li>On <strong>hover</strong> of any of these navigation items, the text color will change from white to blue and a light gray box will appear around the item.</li>
             </ul>
             <br>
 
             <h3>FEEDBACK</h3>
+            <p>Upon hovering the hamburger icon:</p> 
+            <ul>
+                <li>the <i class="fas fa-bars"></i> icon will transform into an <i class="fas fa-angle-down"></i></li>
+            </ul>
             <p>Upon clicking the hamburger icon:</p> 
             <ul>
-                <li>the &#9776; icon will transform into an &#10005</li>
-                <li>a navigation menu will slide in from the left</li>
-                <li>6 navigation menu items will slide in with the menu</li>
+                <li>the <i class="fas fa-angle-down"></i> icon will transform into an <i class="fas fa-angle-up"></i></li>
+                <li>a navigation menu will drop down from the top of the screen with 6 navigation item</li>
             </ul>
-            <p>Upon hover of the menu item:</p> 
+            <p>Upon moving cursor away from the <i class="fas fa-angle-up"></i> icon:</p> 
             <ul>
-                <li>the color will change from white to blue</li>
-                <li>the text will scale up 30% and then return back its original size after mouse click ends</li>
+                <li>the <i class="fas fa-angle-up"></i> icon will transform into an <i class="fas fa-times"></i></li>
+            </ul>
+            <p>Upon hover of each menu item:</p> 
+            <ul>
+                <li>the text color will change from white to blue</li>
+                <li>a gray box will appear around the item</li>
             </ul>
             <br>
 
